@@ -1,6 +1,5 @@
 L = int(input())
 lst = []
-x = 1
 for counter in range (L):
     lst1 = []
     text = input()
