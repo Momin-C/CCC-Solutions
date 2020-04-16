@@ -1,7 +1,13 @@
 N = int(input())
 K = int(input())
-lst = [N]
-for i in range (K):
-    N*=10
-    lst.append(N)
+
+"""
+#SOLUTION 1
+lst = []
+for i in range (K+1):
+    lst.append(N*10**i)
+    print (lst)
 print (sum(lst))
+"""
+
+print (sum([N*10**i for i in range (K+1)])) #SOLUTION 2
