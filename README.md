@@ -1,4 +1,4 @@
-The following are solutions to the junior problems of various CCC years.
+My solutions in python and java for Waterloo's CCC (Canadian Computing Competition)
 
 Source:
 
