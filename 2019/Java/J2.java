@@ -3,7 +3,7 @@ public class J2 {
 	public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         List<Integer> num = new ArrayList<Integer>();
-	    List<String> character = new ArrayList<String>();
+	List<String> character = new ArrayList<String>();
         List<String> printable = new ArrayList<String>();
         int L = input.nextInt();
         for (int i = 0; i<L;i++){
