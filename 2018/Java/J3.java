@@ -2,10 +2,10 @@ import java.util.*;
 public class J3 {
 	public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
-        int d1 = 3; //input.nextInt();
-        int d2 = 10; //input.nextInt();
-        int d3 = 12; //input.nextInt();
-        int d4 = 5; //input.nextInt();
+        int d1 = input.nextInt();
+        int d2 = input.nextInt();
+        int d3 = input.nextInt();
+        int d4 = input.nextInt();
 
         System.out.println("0 " + d1 + " " + (d1+d2) + " " + (d1+d2+d3) + " "+  (d1+d2+d3+d4));
         System.out.println(d1 + " 0 " + d2 + " " + (d2+d3) + " " +  (d2+d3+d4));
