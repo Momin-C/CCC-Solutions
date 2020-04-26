@@ -1,4 +1,5 @@
-d1,d2,d3,d4,d5 = [],[],[],[],[]
+"""
+d1,d2,d3,d4,d5 = [],[],[],[],[] #SOLUTION 1
 
 d = input().split()
 for i in range (len(d)):
@@ -21,3 +22,16 @@ for i in range (3,-1,-1):
 
 for a,b,c,d,e in d1,d2,d3,d4,d5:
     print (a,b,c,d,e)
+"""
+d = input().split()
+
+d1 = int(d[0]) #SOLUTION 2
+d2 = int(d[1])
+d3 = int(d[2])
+d4 = int(d[3])
+
+print("0",d1,(d1+d2),(d1+d2+d3),(d1+d2+d3+d4))
+print(d1,"0",d2,(d2+d3),(d2+d3+d4))
+print((d1+d2),d2,"0",(d3),(d3+d4))
+print((d1+d2+d3),(d2+d3),d3,"0",d4)
+print((d1+d2+d3+d4),(d2+d3+d4),(d3+d4),d4,"0")
