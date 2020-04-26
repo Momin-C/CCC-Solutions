@@ -2,11 +2,9 @@ N = int(input())
 K = int(input())
 
 """
-#SOLUTION 1
-lst = []
+lst = [] #SOLUTION 1
 for i in range (K+1):
     lst.append(N*10**i)
-    print (lst)
 print (sum(lst))
 """
 
