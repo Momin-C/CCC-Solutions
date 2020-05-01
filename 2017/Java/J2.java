@@ -1,9 +1,3 @@
-/*
-lst = [] #SOLUTION 1
-for i in range (K+1):
-    lst.append(N*10**i)
-print (sum(lst))*/
-
 import java.util.*;
 public class J2 {
 	public static void main(String args[]) {
