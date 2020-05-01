@@ -1,5 +1,5 @@
 import java.util.*;
-public class J3 {
+public class Main {
 	public static void main(String args[]) {
 		//WORK IN PROGRESS
         Scanner input = new Scanner(System.in);
