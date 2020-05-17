@@ -7,7 +7,9 @@ startY = int(start[1])
 endX = int(end[0])
 endY = int(end[1])
 
-if ((startX - endX) + (startY - endY))%2 == t%2:
+d = abs(endX - startX) + abs(endY - startY)
+
+if (t-d)%2==0 and t-d>=0:
     print ("Y")
 else:
     print ("N")
