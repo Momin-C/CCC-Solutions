@@ -1,8 +1,13 @@
-#This times for 10 of the points, final score 5/15
 start = [1,2,0,0]
 D = int(input())
 patterns = 0
-for i in range(1,D+1):
+
+if D > 1440:
+    times = D//1440
+    D-= 1440*times
+    patterns+= 62*times
+
+for i in range(D):
     if start == [1,2,5,9]:
         start = [0,1,0,0]
     elif start == [0,9,5,9]:
