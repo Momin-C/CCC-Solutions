@@ -18,3 +18,4 @@ for i in range(6):
         else:
             begin[1]+=20
 print (begin[0],":",begin[1])
+#When at 40min at end of rush hour, make begin[1] 10
