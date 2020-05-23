@@ -1,4 +1,3 @@
-#This scores 14/15
 begin = input().split(":")
 begin[0] = int(begin[0])
 begin[1] = int(begin[1])
@@ -25,7 +24,7 @@ for i in range(6):
         else:
             begin[1]+=20
 if begin[0] >=24:
-    begin[0] = begin[0]//24
+    begin[0] = begin[0] - (begin[0]//24)*24
 begin[0] = str(begin[0])
 begin[1] = str(begin[1])
 if len(begin[0]) == 1:
