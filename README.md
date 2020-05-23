@@ -9,3 +9,5 @@ Source:
 2018: https://cemc.uwaterloo.ca/contests/computing/2018/index.html
 
 2017: https://cemc.uwaterloo.ca/contests/computing/2017/index.html
+
+2016: https://cemc.uwaterloo.ca/contests/computing/2016/index.html
