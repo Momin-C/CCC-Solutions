@@ -2,11 +2,10 @@ import java.util.*;
 public class Main {
 	public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
-        char scores [] = new char [6];
         int wCount = 0;
         for (int i = 0; i<6; i++){
-            scores[i] = input.next().charAt(0);
-            if (scores[i] == 'W'){
+            char game = input.next().charAt(0);
+            if (game == 'W'){
                 wCount++;
             }
         }
