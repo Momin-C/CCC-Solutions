@@ -1,17 +1,14 @@
-g1 = input()
-g2 = input()
-g3 = input()
-g4 = input()
-g5 = input()
-g6 = input()
+w = 0
+for i in range(6):
+    g = input()
+    if g == 'W':
+        w+=1
 
-lst = [g1,g2,g3,g4,g5,g6]
-
-if lst.count("W") == 5 or lst.count("W") == 6:
+if w == 5 or w == 6:
     print (1)
-elif lst.count("W") == 3 or lst.count("W") == 4:
+elif w == 3 or w == 4:
     print (2)
-elif lst.count("W") == 1 or lst.count("W") == 2:
+elif w == 1 or w == 2:
     print (3)
 else:
     print(-1)
